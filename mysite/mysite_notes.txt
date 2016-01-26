@@ -1,0 +1,12 @@
+mysql db name: DB_polls
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'DB_polls',
+        'USER': 'raluca',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
+    }
+}
