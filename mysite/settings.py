@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'DB_polls',
-        'USER': 'raluca',
+        'NAME': 'madalinne$DB_polls',
+        'USER': 'madalinne',
         'PASSWORD': '1234',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'HOST': 'mysql.server',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
