@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import rende
+from django.template import loaderr
 from django.http import HttpResponse
 
 

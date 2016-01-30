@@ -5,3 +5,7 @@ db.sqlite3
 /static
 .DS_Store
 readme.mht
+bin/AzureSetup.cfg
+bin/Microsoft.PythonTools.AzureSetup.exe.config
+bin/wfastcgi.py
+obj/
