@@ -75,16 +75,29 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
+#uncomment/comment to activate/deactivate usage of dabatase on local PC
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'madalinne$DB_polls',
-        'USER': 'madalinne',
+        'NAME': 'DB_polls',
+        'USER': 'raluca',
         'PASSWORD': '1234',
-        'HOST': 'mysql.server',   # Or an IP Address that your DB is hosted on
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
+
+#uncomment/comment to activate/deactivate usage of dabatase on pythonanywhere
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'madalinne$DB_polls',
+#        'USER': 'madalinne',
+#        'PASSWORD': '1234',
+#        'HOST': 'mysql.server',   # Or an IP Address that your DB is hosted on
+#        'PORT': '3306', 
+#    }
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
